@@ -25,7 +25,7 @@ SECRET_KEY = 'el(bz=+9$8ig2!ay75=8oh(#lxsl$n=6lsopkz0*5ak#7@iqg8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app']
 
 CART_SESSION_ID = 'cart'
 SESSION_COOKIE_AGE = 86400
